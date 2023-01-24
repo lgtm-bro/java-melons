@@ -22,5 +22,13 @@ public class Melon {
 		this.harvester = harvester;
 	}
 
+	public boolean isSellable() {
+		if (this.shapeRating < 6 || this.colorRating < 6 || this.field == 3) {
+			return false;
+		} else {
+			return true;
+		}
+	}
+
 }
 
