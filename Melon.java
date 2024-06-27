@@ -10,11 +10,12 @@ public class Melon {
     int field;
     String harvester;
 
-	public Melon (MelonType melonType,
-		   int shapeRating,
-		   int colorRating,
-		   int field,
-		   String harvester) {
+	public Melon (
+		MelonType melonType,
+		int shapeRating,
+		int colorRating,
+		int field,
+		String harvester) {
 		this.melonType = melonType;
 		this.shapeRating = shapeRating;
 		this.colorRating = colorRating;

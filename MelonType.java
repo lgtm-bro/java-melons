@@ -11,7 +11,8 @@ public class MelonType {
     boolean isBestseller;
     String name;
 
-	public MelonType (String code,
+	public MelonType (
+		String code,
 		String name,
 		int firstHarvest,
 		String color,
@@ -25,6 +26,4 @@ public class MelonType {
 	    this.isBestseller = isBestseller;
 	    this.name = name;
 	}
-
-
 }
